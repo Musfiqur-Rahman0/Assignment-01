@@ -158,6 +158,9 @@ header   > nav{
 .flex {
     display: flex;
 }
+.flexRowReverse {
+    flex-direction: row-reverse;
+}
 .w-full {
     width: 100%;
 }
@@ -185,6 +188,9 @@ header   > nav{
 .bg-softGreen {
     background-color: rgb(198, 228, 214);
 }
+.bg-white {
+    background-color: var(--whiteColor);
+}
 .rounded-xl {
     border-radius: var(--roundedXl);
 }
@@ -208,4 +214,14 @@ header   > nav{
 
 #opinion {
     border: 1px solid black;
+}
+
+.newChannel {
+    width: fit-content;
+    object-fit: contain;
+}
+.sateliteImg {
+    object-fit: cover;
+    height: auto;
+    border-radius: var(--roundedXl);
 }
