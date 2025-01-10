@@ -78,6 +78,12 @@ header   > nav{
     color: var(--whiteColor);
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
+
+}
+.containedBtn:hover {
+    background-color: rgb(9, 161, 92);
+    transition: all 0.3s ease;
 }
 .heroTitle {
     font-size: 3.5rem;
