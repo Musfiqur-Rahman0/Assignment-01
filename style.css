@@ -17,6 +17,11 @@
     --paddingPrimary: 15px 30px;
     --whiteColor: #fff;
     --blackColor: #0e0e0e;
+    --primaryBackground: rgb(198, 228, 214);
+}
+
+body {
+ background: rgb(245, 245, 245);;
 }
 
 .outlinedBtn {
@@ -35,8 +40,9 @@ header   > nav{
     align-items: center;
     justify-content: space-between;
     max-width: 1280px;
-    padding: 24px 100px;
+    /* padding: 24px 0px; */
     margin: 0 auto;
+    height: 100px;
 
 }
 
@@ -51,6 +57,8 @@ header   > nav{
     display: flex;
     align-items: center;
     gap: 16;
+    background-color: var(--primaryBackground); 
+    border-radius: var(--roundedLg);   
 }
 
 .heroContent {
@@ -79,4 +87,49 @@ header   > nav{
     opacity: 0.5;
     font-size: 24px;
     font-weight: 500;
+}
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.container section {
+    max-width: 1280px;
+}
+#pillersOfBd {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.pillerContainer {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.pillerContainer div {
+    padding: 24px;
+    background-color: var(--whiteColor);
+    border-radius: var(--roundedMd);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.paragraph {
+    color: var(--blackColor);
+    opacity: 0.7;
 }
