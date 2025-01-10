@@ -103,6 +103,7 @@ header   > nav{
     display: flex !important;
     flex-direction: column;
     gap: 32px;
+    
 }
 /* #pillersOfBd {
     display: flex;
@@ -157,6 +158,9 @@ header   > nav{
 .flex {
     display: flex;
 }
+.w-full {
+    width: 100%;
+}
 
 .align-center {
     align-items: center;
@@ -196,3 +200,12 @@ header   > nav{
 }
 
 
+/* table> thead>  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+#opinion {
+    border: 1px solid black;
+}
