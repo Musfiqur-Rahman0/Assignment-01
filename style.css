@@ -95,16 +95,20 @@ header   > nav{
     align-items: center;
     justify-content: center;
     gap: 80px;
+    padding-bottom:100px ;
 }
 
 .container section {
     max-width: 1280px;
-}
-#pillersOfBd {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     gap: 32px;
 }
+/* #pillersOfBd {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+} */
 
 .pillerContainer {
     display: flex;
@@ -133,3 +137,62 @@ header   > nav{
     color: var(--blackColor);
     opacity: 0.7;
 }
+
+.gap-32 {
+    gap: 32px;
+}
+.gap-24 {
+    gap: 24px;
+}
+.gap-12 {
+    gap: 12px
+}
+.gap-4 {
+    gap: 4px;
+}
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+.padding-32 {
+    padding: 32px;
+}
+/* #Vision {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+   
+} */
+
+
+.bg-softBlue {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.bg-softWhite {
+    background-color: rgb(247, 235, 207);
+}
+.bg-softGreen {
+    background-color: rgb(198, 228, 214);
+}
+.rounded-xl {
+    border-radius: var(--roundedXl);
+}
+.relative {
+    position: relative;
+}
+
+.qouteOfYunus {
+    padding: 48px 24px;
+    /* align-items: start; */
+    background-color: var(--whiteColor);  
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+
