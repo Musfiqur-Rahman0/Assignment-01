@@ -112,11 +112,9 @@ header   > nav{
     gap: 32px;
     
 }
-/* #pillersOfBd {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-} */
+ #pillersOfBd {
+    /* text-align: start; */
+} 
 
 .pillerContainer {
     display: flex;
@@ -136,6 +134,7 @@ header   > nav{
 .heading {
     font-size: 40px;
     font-weight: 700;
+    width: 100%;
 }
 .title {
     font-size: 20px;
