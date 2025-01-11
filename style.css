@@ -49,10 +49,9 @@ header   > nav{
     align-items: center;
     justify-content: space-between;
     max-width: 1280px;
-    /* padding: 24px 0px; */
+  
     margin: 0 auto;
     height: 100px;
-
 }
 
 .logo {
@@ -105,7 +104,7 @@ header   > nav{
     font-weight: 600;
     cursor: pointer;
     width: fit-content;
-    /* background-color: rgb(255, 194, 57), rgb(9, 161, 92), rgb(198, 228, 214); */
+  
 }
 .visionBtn {
     background-color: rgb(84, 144, 245); 
@@ -121,10 +120,6 @@ header   > nav{
     opacity: 0.8;
     transition: all 0.3s ease;
 }
-
-
-
-
 
 .heroTitle {
     font-size: 3.5rem;
@@ -223,13 +218,6 @@ header   > nav{
 .padding-32 {
     padding: 32px;
 }
-/* #Vision {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-   
-} */
-
 
 .bg-softBlue {
     background-color: rgba(84, 144, 245, 0.2) !important; 
@@ -252,7 +240,6 @@ header   > nav{
 
 .qouteOfYunus {
     padding: 48px 24px;
-    /* align-items: start; */
     background-color: var(--whiteColor);  
     border: 1px solid rgba(14, 14, 14, 0.15);
     position: relative;
@@ -264,10 +251,6 @@ header   > nav{
     left: 25px;
     opacity: 0.5;
 }
-
-
-
-
 .newChannel {
     width: fit-content;
     object-fit: contain;
@@ -353,8 +336,7 @@ table, thead, tr{
 }
 
 .tableHeader {
-    background-color: rgb(198, 228, 214);
-   
+    background-color: rgb(198, 228, 214); 
 }
 
 table {
@@ -369,8 +351,7 @@ td , th{
 }
 tr, td {
     border: 1px solid rgba(14, 14, 14, 0.15);
-    font-weight: 600;
-    
+    font-weight: 600;  
 }
 
 select {
@@ -379,6 +360,7 @@ select {
    outline: none;
    border-radius: 4px;
    font-weight: 500;
+   cursor: pointer;
 }
 
 table th {
