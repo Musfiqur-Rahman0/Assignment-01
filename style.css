@@ -228,21 +228,13 @@ header   > nav{
 
 .quoteContainer {
     position:  absolute;
-    top: 30px;
+    top: 25px;
     left: 25px;
     opacity: 0.5;
 }
 
 
-/* table> thead>  {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
 
-#opinion {
-    border: 1px solid black;
-}
 
 .newChannel {
     width: fit-content;
@@ -320,4 +312,43 @@ footer i {
 input {
     outline: none;
     border: none;
+}
+
+table, thead, tr{
+    width: 100%;
+
+}
+
+.tableHeader {
+    background-color: rgb(198, 228, 214);
+   
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    
+}
+
+td , th{
+    padding:  24px;
+
+}
+tr, td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-weight: 600;
+    
+}
+
+select {
+    padding:  10px 14px;
+    background-color: rgb(198, 228, 214);
+   outline: none;
+   border-radius: 4px;
+   font-weight: 500;
+}
+
+table th {
+    font-size: 20px;
+    font-weight: 600;
 }
