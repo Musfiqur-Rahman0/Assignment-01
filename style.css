@@ -94,6 +94,38 @@ header   > nav{
     background-color: rgb(9, 161, 92);
     transition: all 0.3s ease;
 }
+
+.visionBtn, .visionBtn1, .visionBtn2 {
+    padding: var(--paddingPrimary);
+    outline: none;
+    border: none;
+    border-radius: var(--roundedMd);
+    color: var(--whiteColor);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    width: fit-content;
+    /* background-color: rgb(255, 194, 57), rgb(9, 161, 92), rgb(198, 228, 214); */
+}
+.visionBtn {
+    background-color: rgb(84, 144, 245); 
+}
+.visionBtn1 {
+    background-color:  rgb(9, 161, 92) ;
+}
+.visionBtn2 {
+    background-color: rgb(255, 194, 57);
+}
+
+.visionBtn:hover , .visionBtn1:hover , .visionBtn2:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
 .heroTitle {
     font-size: 3.5rem;
 }
